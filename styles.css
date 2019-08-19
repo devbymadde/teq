@@ -86,7 +86,7 @@ blockquote:before {
 }
 
 .hero:nth-child(4) .image {
-    background-image: linear-gradient(rgb(255, 207, 75), rgba(255, 207, 75, 0.5));
+    background-image: linear-gradient(rgb(241, 137, 45), rgba(241, 137, 45, 0.5));
     background-size: cover;
 }
 
@@ -118,7 +118,6 @@ blockquote:before {
     font-size: 50px;
     text-align: center;
 }
-
 .content {
     position: relative;
     margin: 0 auto 80px;
