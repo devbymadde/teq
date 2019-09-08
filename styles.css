@@ -1,148 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Quicksand");
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: "Pacifico", serif;
-}
-
-.hero {
-    height: 100vh;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
-}
-
-.hero .image {
-    background-size: cover;
-}
-
-.hero:nth-child(1) .image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/mind.jpg");
-}
-
-.hero:nth-child(2) .image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/coffee.jpg");
-}
-
-.hero:nth-child(3) .image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/courage.jpg");
-}
-
-.hero:nth-child(4) .image {
-    background-image: linear-gradient(rgb(255, 219, 74), rgba(241, 137, 45, 0.5));
-}
-
-.hero:nth-child(4) .quote p {
-    color: white;
-}
-
-.image {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed; 
-}
-
-.quote {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-family: "Quicksand", serif;
 }
 
 .quote p {
-    font-family: "Pacifico", serif;
-    width: 50%;
-    color: #ffdb4a;
-    font-size: 50px;
-    text-align: center;
+  font-family: "Pacifico", serif;
+  color: #ffdb4a;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px;
 }
 
 p {
-    font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 20px 0;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: normal;
-    text-align: center;
+  font-family: "Pacifico", serif;
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
 }
 
-h2.subtitle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    width: 100%;
-    font-size: 25px;
-    text-align: center;
-}
-
-.content {
-    position: relative;
-    margin: 0 auto 80px;
-    padding: 2rem;
-}
-
-.content:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: white;
-    z-index: 99;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
-
-.content_inner {
-    margin: 0 auto;
-    max-width: 700px;
-}
-
-.content_inner>blockquote {
-    margin: 3rem 0;
-}
-
-/* Overkill stuff if we have time */ 
-h2.subtitle:before, h2.subtitle:after {
-    content: '';
-    flex: 1;
-    height: 2px;
-    background-color: #ffdb4a;
-}
-
-h2.subtitle:before {
-    margin-right: 15px;
-}
-
-h2.subtitle:after {
-    margin-left: 15px;
-}
-
-blockquote {
-    position: relative;
-    padding-left: 20px;
-    font-size: 30px;
-}
-
-blockquote:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 6px;
-    height: 100%;
-    background-color: #ffdb4a;
-    border-radius: 50px; 
+h2 {
+  font-family: "Pacifico", serif;
+  text-align: center;
 }
