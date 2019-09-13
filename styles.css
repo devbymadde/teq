@@ -8,7 +8,7 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  height: 100%;
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
 }
 
@@ -17,24 +17,26 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-size: cover; 
-  position: fixed; 
+  background-size: cover;
+  position: fixed;
+  filter: brightness(0.5);
 }
 
 .hero:nth-child(1) .image {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/mind.jpg");
+  background-image: url("images/mind.jpg");
 }
 
 .hero:nth-child(2) .image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/coffee.jpg");
+  background-image: url("images/coffee.jpg");
 }
 
 .hero:nth-child(3) .image {
-  background-image:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/courage.jpg");
+  background-image: url("images/courage.jpg");
 }
 
 .hero:nth-child(4) .image {
   background-image: linear-gradient(rgb(255, 219, 74), rgba(241, 137, 45, 0.5));
+  filter: none;
 }
 
 .hero:nth-child(4) .quote p {
@@ -58,7 +60,7 @@ body {
   font-size: 50px;
   text-align: center;
   margin: 50px;
-  width:50%;
+  width: 50%;
 }
 
 .content {
@@ -68,8 +70,8 @@ body {
   position: relative;
 }
 
-.content:before {
-  content: '';
+/* .content:before {
+  content: "";
   display: block;
   position: absolute;
   top: -100px;
@@ -79,7 +81,7 @@ body {
   background-color: white;
   z-index: 99;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-}
+} */
 
 p {
   font-size: 20px;
